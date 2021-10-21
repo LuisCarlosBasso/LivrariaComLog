@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>LivrariaComLog</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ElmahCore" Version="2.0.7" />
+        <PackageReference Include="ElmahCore.MySql" Version="2.0.7" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LivrariaComLog.Domain\LivrariaComLog.Domain.csproj" />
+      <ProjectReference Include="..\LivrariaComLog.Infra.Data\LivrariaComLog.Infra.Data.csproj" />
+      <ProjectReference Include="..\LivrariaComLog.Infra\LivrariaComLog.Infra.csproj" />
+    </ItemGroup>
+
+</Project>

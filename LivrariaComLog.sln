@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaComLog.Api", "LivrariaComLog.Api\LivrariaComLog.Api.csproj", "{953A03F8-D1EE-42C0-8300-7D8B28610E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaComLog.Domain", "LivrariaComLog.Domain\LivrariaComLog.Domain.csproj", "{6D42303A-2286-43B1-94AC-CF5F1E6501C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaComLog.Infra", "LivrariaComLog.Infra\LivrariaComLog.Infra.csproj", "{8BB3F74C-6EB3-48AC-A42B-786F9725EB59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaComLog.Infra.Data", "LivrariaComLog.Infra.Data\LivrariaComLog.Infra.Data.csproj", "{C66CE442-2F85-4E98-9932-F564D2310156}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{953A03F8-D1EE-42C0-8300-7D8B28610E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953A03F8-D1EE-42C0-8300-7D8B28610E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953A03F8-D1EE-42C0-8300-7D8B28610E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953A03F8-D1EE-42C0-8300-7D8B28610E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D42303A-2286-43B1-94AC-CF5F1E6501C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D42303A-2286-43B1-94AC-CF5F1E6501C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D42303A-2286-43B1-94AC-CF5F1E6501C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D42303A-2286-43B1-94AC-CF5F1E6501C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB3F74C-6EB3-48AC-A42B-786F9725EB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB3F74C-6EB3-48AC-A42B-786F9725EB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB3F74C-6EB3-48AC-A42B-786F9725EB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB3F74C-6EB3-48AC-A42B-786F9725EB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66CE442-2F85-4E98-9932-F564D2310156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66CE442-2F85-4E98-9932-F564D2310156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66CE442-2F85-4E98-9932-F564D2310156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66CE442-2F85-4E98-9932-F564D2310156}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
